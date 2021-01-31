@@ -1,0 +1,35 @@
+{
+  "name": "serverless-plugin-1password",
+  "version": "1.0.0",
+  "description": "Serverless interface to 1Password data via the 1Password CLI",
+  "homepage": "https://github.com/kandsten/serverless-plugin-1password",
+  "bugs": "https://github.com/kandsten/serverless-plugin-1password/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kandsten/serverless-plugin-1password.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/jest/bin/jest.js --coverage",
+    "lint": "./node_modules/eslint/bin/eslint.js index.js"
+  },
+  "keywords": [
+    "1password",
+    "onepassword",
+    "serverless"
+  ],
+  "author": "Kriss Andsten <kriss@raljant.se>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.18.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "jest": "^26.6.3",
+    "rewire": "^5.0.0",
+    "serverless": "^2.21.1"
+  }
+}
